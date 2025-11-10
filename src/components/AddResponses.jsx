@@ -1,4 +1,3 @@
-// AddResponses.jsx
 import { useEffect } from "react";
 import { Chatbot } from "supersimpledev";
 
@@ -7,6 +6,7 @@ Chatbot.unsuccessfulResponse = "Sorry, I didn't quite understand that.";
 
 // --- Full FAQ dataset ---
 const faqDataset = [
+
     // Greetings
     { question: 'hi', answer: 'Hello there! How can I help you today?' },
     { question: 'hello', answer: 'Hi! How’s it going?' },
@@ -138,7 +138,7 @@ function getBestMatch(query) {
         (typeof best.answer === 'function' ? best.answer() : best.answer) : null;
 }
 
-// --- Register chatbot responses ---
+// --- Registering chatbot responses ---
 export function AddResponses() {
     useEffect(() => {
         const responses = {};
