@@ -7,7 +7,7 @@ It can chat naturally, tell jokes, share motivation, answer questions about tech
 
 ## 🌐 Live Demo
 
-👉 **[ChatRex Live](https://chatrex.netlify.app/)**
+👉 **[ChatRex](https://chatrex.netlify.app/)**
 
 ---
 
