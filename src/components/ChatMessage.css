@@ -11,12 +11,10 @@
  }
 
  .usrMsg {
-     background-color: #d5d0cd;
-     /* border-radius: 15px; */
-     /* border-top-right-radius: 20px;
-     border-top-left-radius: 50px;
-     border-bottom-left-radius: 50px;
-     border-bottom-right-radius: 80px; */
+     background: linear-gradient(145deg, rgba(245, 245, 245, 0.85), rgba(200, 200, 200, 0.6));
+     color: #111;
+     box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
+     font-size: 16px;
      border-radius: 5px 25px 5px 5px;
      padding: 12px 15px;
      margin-right: 10px;
@@ -26,12 +24,9 @@
  }
 
  .rbtMsg {
-     background-color: #d5d0cd;
-     /* border-radius: 15px; */
-     /* border-top-right-radius: 20px;
-     border-top-left-radius: 50px;
-     border-bottom-left-radius: 50px;
-     border-bottom-right-radius: 80px; */
+     background: linear-gradient(145deg, rgba(255, 255, 255, 0.8), rgba(220, 220, 220, 0.6));
+     color: #111;
+     box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
      border-radius: 25px 5px 5px 5px;
      padding: 12px 15px;
      margin-right: 10px;
@@ -43,8 +38,10 @@
  .Time {
      display: block;
      margin-top: 2px;
-     color: #212529;
+     color: rgba(30, 30, 30, 0.7);
      font-size: 11px;
+     /* color: rgba(180, 180, 180, 0.65); */
+     font-style: italic;
  }
 
 

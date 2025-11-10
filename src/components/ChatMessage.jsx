@@ -14,7 +14,6 @@ export function ChatMessage({ message, sender, time }) {
                         Sent at {time}
                     </span>
                 </span>
-                {/* <span>{time}</span> */}
                 {sender === 'user' && <img src={user} />}
             </div>
 
