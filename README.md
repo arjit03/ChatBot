@@ -26,7 +26,7 @@ It can chat naturally, tell jokes, share motivation, answer questions about tech
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/chatrex.git
+   git clone https://github.com/arjit03/ChatBot.git
 
 2. **Navigate into the project folder**
    ```bash   
